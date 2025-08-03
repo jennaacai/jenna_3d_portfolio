@@ -239,7 +239,7 @@ export const projects = [
         Implemented dynamic page routing, a working contact form with EmailJS, and custom UI components for user engagement. 
         Demonstrated full-stack frontend proficiency through modular component structuring, custom alert systems, background audio controls, 
         and production deployment `,
-        liveLink: 'https://www.linkedin.com/in/jenna-cai-b875381bb/',
+        liveLink: 'https://jenna-cai-portfolio.netlify.app/',
     },
 
 ];
