@@ -1,0 +1,66 @@
+import { Link } from "react-router-dom";
+
+import { arrow } from "../assets/icons";
+
+const HomeInfo = ({ currentStage }) => {
+  if (currentStage === 1)
+    return (
+      <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
+        You've discovered 
+        <span className='font-semibold mx-2 text-white'>Jenna's Island!</span>
+        <br />
+        Hold down your cursor/arrow keys and swipe through my island!
+        <br/>
+        <i>*Try sound on bottom left*</i>
+      </h1>
+    );
+
+  if (currentStage === 2) {
+    return (
+      <div className='info-box'>
+        <p className='font-medium sm:text-xl text-center'>
+          Want to get to know more about me, <br /> my skills, and experiences?
+        </p>
+
+        <Link to='/about' className='neo-brutalism-white neo-btn'>
+          Learn more
+          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+        </Link>
+      </div>
+    );
+  }
+
+  if (currentStage === 3) {
+    return (
+      <div className='info-box'>
+        <p className='font-medium text-center sm:text-xl'>
+          Worked on different creative and technical projects. <br /> Curious about them?
+        </p>
+
+        <Link to='/projects' className='neo-brutalism-white neo-btn'>
+          Visit projects
+          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+        </Link>
+      </div>
+    );
+  }
+
+  if (currentStage === 4) {
+    return (
+      <div className='info-box'>
+      <p className='font-medium sm:text-xl text-center'>
+        Want to contact me? Send me a message!
+      </p>
+
+      <Link to='/contact' className='neo-brutalism-white neo-btn'>
+        Let's talk
+        <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+      </Link>
+    </div>
+    );
+  }
+
+  return null;
+};
+
+export default HomeInfo;
