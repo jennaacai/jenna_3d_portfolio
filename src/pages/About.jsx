@@ -15,7 +15,7 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Hello, I'm{" "}
+        Hey there! I'm{" "}
         <span className='font-semibold drop-shadow'>
           {" "}
           Jenna Cai
@@ -24,7 +24,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Student at Columbia University majoring in Applied Math and Computer Science.
+          Junior at Columbia University majoring in Computer Science and Applied Math.
         </p>
       </div>
 
@@ -53,7 +53,7 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Work Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
             Every company I’ve worked with has taught me something new about tech, 

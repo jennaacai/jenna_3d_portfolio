@@ -134,8 +134,8 @@ export const experiences = [
         iconBg: "#9b1708",
         date: "May 2024 - Aug 2025",
         points: [
-            "Worked on Infrastructure Automation using Terraform on AWS and AliCloud; Involved in Microservice Containers migration from Redhat OpenShift Environment(OSE) to AWS Elastic Kubernetes Services(EKS) and AliCloud ACK",
-            "Worked on Partners Integration. Accessing and modifying resources using HTTP verbs and Postman collections through basic authentication and oAuth2: Token, Member Profile, Account Linking, and Points Transfer",
+            "Led cloud migration from single-region OpenShift setup to dual-region AliCloud ACK clusters. Automated deployment of 2 Kubernetes clusters, 3 microservices, and 6-node Couchbase clusters using Terraform, Ansible, and CI/CD pipelines. Executed 5-phase DNS-based traffic cutover achieving 100% production traffic migration with minimal downtime.",
+            "Contributed to Partner Integration through API development for seven partners. Delivered Postman API collections enabling secure access to Token, Member Profile, Account Linking, and Points Transfer (Earn/Redemption) APIs. Led partner testing queries and full-cycle API integration including error handling (HTTP 5xx, 429) and security compliance.",
         ],
     },
     {
@@ -236,8 +236,8 @@ export const projects = [
         name: 'Personal Website',
         description: `Developed a responsive 3D portfolio website using React.js, Three.js, and Tailwind CSS, 
         showcasing interactive scenes and animated models with React Three Fiber. 
-        Implemented dynamic page routing, a working contact form with EmailJS, and custom UI components for user engagement. 
-        Demonstrated full-stack frontend proficiency through modular component structuring, custom alert systems, background audio controls, 
+        Implemented dynamic page routing and custom UI components for user engagement. 
+        Demonstrated frontend proficiency through modular component structuring, custom alert systems, background audio controls, 
         and production deployment `,
         liveLink: 'https://jenna-cai-portfolio.netlify.app/',
     },
