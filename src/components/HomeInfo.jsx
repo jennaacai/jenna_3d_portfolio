@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         You've discovered 
         <span className='font-semibold mx-2 text-white'>Jenna's Island!</span>
         <br />
-        Hold down your cursor/arrow keys and swipe through my island!
+         Hold down your trackpad/mouse, then drag to look around my island!
         <br/>
         <i>*Try sound on bottom left*</i>
       </h1>
